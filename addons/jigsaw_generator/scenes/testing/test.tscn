@@ -1,3 +1,7 @@
 [gd_scene format=3 uid="uid://ckgxbjdy0v442"]
 
+[ext_resource type="PackedScene" uid="uid://bmc6n5x27xfvg" path="res://addons/jigsaw_generator/scenes/testing/structure_1/room_1.tscn" id="1_o7mqr"]
+
 [node name="Node3D" type="Node3D" unique_id=2009654337]
+
+[node name="Room1" parent="." unique_id=1592955900 instance=ExtResource("1_o7mqr")]
